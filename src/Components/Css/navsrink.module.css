@@ -1,0 +1,26 @@
+/* CSS for navbar size change on scroll */
+.navbar {
+    transition: all 0.3s ease;
+    padding: 20px 0; /* Default padding */
+  }
+  
+  .navbar-shrink {
+    padding: 10px 0; /* Smaller padding when scrolled */
+  }
+  
+  .navbar .navbar-brand img {
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-shrink .navbar-brand img {
+    width: 150px; /* Smaller logo when scrolled */
+  }
+  
+  .navbar .nav-link {
+    transition: font-size 0.3s ease;
+  }
+  
+  .navbar-shrink .nav-link {
+    font-size: 14px; /* Smaller font size when scrolled */
+  }
+  
